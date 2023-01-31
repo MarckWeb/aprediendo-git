@@ -1,12 +1,8 @@
-// let numeral = "#"
-// let contador = 0;
-// while(contador < 10){
-//     console.log(numeral)
-//     numeral += "#"
-//     contador++
-// }
-let numeral = "#"
-for(i = 0; i<10; i++){
-    console.log(numeral)
-    numeral += "#"
+
+for(i = 0; i < 4;i++){
+    for(j = 0; j < i; j+=i){
+        console.log("# # # # ")
+    }
+
+    console.log(" # # # #")
 }
